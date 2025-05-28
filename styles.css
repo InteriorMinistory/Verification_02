@@ -1,160 +1,151 @@
-/* Base styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: linear-gradient(to bottom, #e8e8e8, #e8e8e8);
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ministry of Interior - Pakistan</title>
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/State_emblem_of_Pakistan.svg/800px-State_emblem_of_Pakistan.svg.png"
+      type="image/svg+xml"
+    />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f3f3f3;
+        color: #000;
+      }
 
-.container {
-    width: 90%;
-    margin: 0 auto;
-}
+      header {
+        background-color: #00401b;
+        color: white;
+        padding: 30px 0;
+        text-align: center;
+      }
 
-/* Header styles */
-header {
-    position: relative;
-    background: linear-gradient(to right, #2c2c2c, #000000);
-    background-size: cover;
-    color: #f2f2f2;
-    padding: 100px 0;
-    text-align: center;
-}
+      header img {
+        width: 100px;
+      }
 
+      h1 {
+        margin: 10px 0 0;
+        font-size: 28px;
+        text-transform: uppercase;
+      }
 
-header h1 {
-    margin: 0;
-    font-size: 40px;
-    animation: fadeInUp 1s ease;
-    padding: 1%;
-}
+      h2,
+      h3,
+      h4 {
+        text-align: center;
+        margin: 15px 0;
+      }
 
-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    animation: fadeInUp 1s ease;
-}
+      .container {
+        background: white;
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
 
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
+      .info-block {
+        margin-top: 30px;
+        border-top: 2px solid #ccc;
+        padding-top: 20px;
+      }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+      .highlight {
+        color: red;
+        font-weight: bold;
+      }
 
-/* Section styles */
-section {
-    padding: 50px 0;
-}
+      .signature {
+        margin-top: 40px;
+        text-align: center;
+      }
 
-section h2 {
-    text-align: center;
-    animation: fadeInUp 1s ease;
-}
+      footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        background-color: #00401b;
+        color: white;
+        margin-top: 50px;
+      }
 
-/* Products section styles */
-.product-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    animation: fadeInUp 1s ease;
-}
+      a {
+        color: #99ccff;
+        text-decoration: none;
+      }
 
-.product {
-    width: 250px;
-    margin: 20px;
-    padding: 15px;
-    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.3s ease;
-}
+      a:hover {
+        text-decoration: underline;
+      }
 
-.product:hover {
-    transform: translateY(-5px);
-}
+      .seal {
+        display: block;
+        margin: 30px auto;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/State_emblem_of_Pakistan.svg/800px-State_emblem_of_Pakistan.svg.png"
+        alt="National Emblem"
+      />
+      <h1>Ministry of Interior, Government of Pakistan</h1>
+    </header>
 
-.product img {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-}
+    <div class="container">
+      <h2><u>Tinted Glass Permit Verification</u></h2>
+      <img
+        src="https://blogger.googleusercontent.com/img/a/AVvXsEiyUBXfrWvKaiElCYkP7wa50L-5g2lfLTnsbI6uOLaqoMosoLyj5nVQdNSQ8CsFXxTVJA3LHdrwOcrpMxk-6Ugta1AFxRCAJc3TO18l447aBw_bjIeD3Z2luAhrikuPTBK_fFmsSrz8QmM84qEhhcxPhffrYj0RouxfBLKXJ39OGmOqR6SSsRgjmnFp=s320"
+        class="seal"
+        alt="Verified Permit Seal"
+      />
 
-.product h3 {
-    margin: 0;
-}
+      <div class="info-block">
+        <h3 class="highlight">✔ Verified</h3>
+        <h3><b>Issuing Authority:</b> Muhammad Asad Mehmood</h3>
+        <h3>Designation: Section Officer (E-2)</h3>
+      </div>
 
-.product p {
-    margin: 10px 0;
-}
+      <div class="info-block">
+        <h3><b>User Information</b></h3>
+        <h3>Name: TARIQ SHABIR DOLA</h3>
+        <h3>Father's Name: HAKIM ALI</h3>
+        <h3>CNIC: 35303-1643503-7</h3>
+        <h3>Address: H NO 48/C, ST NO 3, RENALA KHURD</h3>
+      </div>
 
-/* Footer styles */
-footer {
-    background: linear-gradient(to right, #333333, #1a1a1a);
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    animation: fadeInUp 1s ease;
-}
+      <div class="info-block">
+        <h3 class="highlight">*Valid for All Vehicles*</h3>
+        <h3>Issue Date: 12/02/2025</h3>
+        <h3>Expiry Date: Lifetime</h3>
+        <h3 class="highlight">*Validated for All Pakistan*</h3>
+      </div>
 
-/* Contact section styles */
-/* Contact section styles */
-#contact {
-    background: linear-gradient(to bottom, #f4f4f4, #dcdcdc);
-    padding: 50px 0;
-}
+      <div class="signature">
+        <p><strong>@2022 Ministry of Interior Pakistan</strong></p>
+        <p>Phone: 051-9206660 | Fax: 051-9204193</p>
+        <p>
+          Email:
+          <a href="mailto:Complaintcell@interior.com"
+            >Complaintcell@interior.com</a
+          >
+        </p>
+        <p>
+          Website:
+          <a href="https://www.interior.gov.pk/contact-us/"
+            >https://www.interior.gov.pk</a
+          >
+        </p>
+      </div>
+    </div>
 
-.location {
-    text-align: center;
-    margin: 20px;
-}
-.contact-details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.person {
-    text-align: center;
-    margin: 20px;
-
-
-}
-
-.person img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.person h3 {
-    margin: 0;
-}
-
-.person h4 {
-    margin: 5px 0;
-    color: #373737;
-}
-
-
-
-/* Keyframe animations */
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+    <footer>&copy; Government of Pakistan - Ministry of Interior</footer>
+  </body>
+</html>
